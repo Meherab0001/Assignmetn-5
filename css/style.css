@@ -2,10 +2,15 @@
 body{
     margin: 0;
     padding: 0;
-    background-color: beige;
+  
+    font-weight: 600px;
+}
+p{
+    font-size: 20px;
 }
 .header{
     text-align: center;
+  
 }
 .container{
     display: flex;
@@ -13,10 +18,12 @@ body{
     text-align: center;
     margin-top: 50px;
   
+  
 }
 .image-field{
     width: 50%;
     padding: 0 50px;
+
 }
 .img{
     width: 100%;
@@ -24,8 +31,33 @@ body{
 }
 .input-field{
     width: 50%;
-    padding-right: 50px;
+    padding-left: 50px;
     align-items: center;
+    background-color: #E6E6E6;
+  
+}
+.input-group{
+    background-color:rgba(238, 237, 235, 0.904);
+    font-size:15px;
+    padding: 8px ;
+    background-color: #E6E6E6;
+}
+.btn{
+    background-color: rgba(28, 177, 226, 0.945);
+    padding: 8px 40px;
+    color: white;
+    font-size: 20px;
+    border-radius: 4px;
+    border: 3px solid ;
+  
+}
+.btn1{
+    background-color: whitesmoke;
+;    padding: 8px 40px;
+    
+    font-size: 20px;
+    border-radius: 4px;
+    border: 3px solid;   
 }
 
 @media screen and (max-width:480px) {
