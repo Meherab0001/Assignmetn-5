@@ -1,0 +1,44 @@
+/*  */
+body{
+    margin: 0;
+    padding: 0;
+    background-color: beige;
+}
+.header{
+    text-align: center;
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    margin-top: 50px;
+  
+}
+.image-field{
+    width: 50%;
+    padding: 0 50px;
+}
+.img{
+    width: 100%;
+    background-size: cover;
+}
+.input-field{
+    width: 50%;
+    padding-right: 50px;
+    align-items: center;
+}
+
+@media screen and (max-width:480px) {
+    .container{
+        flex-direction: column;
+    }
+    body{
+        overflow-x: hidden;
+     
+       }
+       .input-field{
+           align-items: center;
+        text-align: center;
+       }
+       
+}
