@@ -42,6 +42,31 @@ p{
     padding: 8px ;
     background-color: #E6E6E6;
 }
+#income-error{
+    display: none;
+    color: red;
+    font-size: 15px;
+}
+#food-error{
+    display: none;
+    color: red;
+    font-size: 15px;
+}
+#rent-error{
+    display: none;
+    color: red;
+    font-size: 15px;
+}
+#colth-error{
+    display: none;
+    color: red;
+    font-size: 15px;
+}
+#calc{
+    display: none;
+    color: red;
+    font-size: 15px; 
+}
 .btn{
     background-color: rgba(28, 177, 226, 0.945);
     padding: 8px 40px;

@@ -21,19 +21,23 @@
         </section>
         <section class="input-field">
             <h2>Income</h2>
-            <p>Income :<span><input id="income"  class="input-group"  name="" id=""></span></p>
+            <p>Income :<span> <input id="income"  class="input-group"  name=""  placeholder="Please input your salary" required><p id="income-error">Please give corrct number</p></span></p>
+
             <h2>Expenses</h2>
-            <p>Food :<span><input id="food" class="input-group" name="" id=""></span></p>
-            <p>Rent :<span><input id="rent" class="input-group" name="" id=""></span></p>
-            <p>Colths :<span><input id="colth" class="input-group" name="" id=""></span></p>
-           <button id="calculate" class="btn">Calculate</button>
+            <p>Food :<span><input id="food-cost" class="input-group" name="" id="" required><p id="food-error">Please give corrct number in food field</p></span></p>
+
+            <p>Rent :<span><input id="rent-cost" class="input-group" name="" id="" required><p id="rent-error">Please give corrct number in  rent field</p</span></p>
+
+            <p>Colths :<span><input id="colth-cost" class="input-group" name="" id="" required><p id="colth-error">Please give corrct number in colth field</p</span></p>
+
+           <button id="calculate" class="btn">Calculate <span id="calc">please enter the corect value</span></button>
            
             <h2 >Total Expenses: <span id="total-expenes"></span></h2>
             <h2>Blance: <span id="blance"></span></h2>
             
-            <P>Save <span><BUtton class="btn1">20</BUtton>% <button class="btn" >Save</button></span></P>
-            <h2>Saving Amount: <span id=""></span></h2>
-            <h2>Remaing Blance: <span id=""></span></h2>
+            <P>Save <span><input id="saving" class="input-group" type="text" required> % <button id="saving-btn" class="btn" >Save</button></span></P>
+            <h2>Saving Amount: <span id="saving-amount"></span></h2>
+            <h2>Remaing Blance: <span id="remaing"></span></h2>
         </section>
     </main>
     <!-- main section end -->
